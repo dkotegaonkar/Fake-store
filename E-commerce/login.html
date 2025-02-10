@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | FakeStore</title>
+    <link rel="stylesheet" href="login.css" />
+</head>
+<body>
+    <div class="login_form">
+        <form id="loginForm">
+            <h3>Log in</h3>
+            <div class="input_box">
+                <label for="username">Username</label>
+                <input type="text" id="username" placeholder="Enter username" required />
+            </div>
+            <div class="input_box">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Enter password" required />
+            </div>
+            <button type="submit">Log In</button>
+        </form>
+        <p id="error-message" style="color: red; display: none;">Invalid credentials</p>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>
